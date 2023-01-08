@@ -10,4 +10,14 @@ class HomeController extends Controller
     public function index() {
         return view('front.home.index');
     }
+
+    public function language($key)
+    {
+        if ($key == 'en') {
+            session()->put('locale', 'en');
+        } else {
+            session()->put('locale', 'tm');
+        }
+        return redirect()->back();
+    }
 }

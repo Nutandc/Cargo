@@ -7,5 +7,14 @@ use Illuminate\Http\Request;
 
 class CargoController extends Controller
 {
-    //
+
+    public function language($key)
+    {
+        if ($key == 'en') {
+            session()->put('locale', 'en');
+        } else {
+            session()->put('locale', 'tm');
+        }
+        return redirect()->back();
+    }
 }
