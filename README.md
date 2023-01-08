@@ -11,7 +11,7 @@ Cargo made by Atamyrat
 ![js](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=Javascript)
 ![PHP](https://img.shields.io/badge/-PHP-000000?style=for-the-badge&logo=PHP) 
 ![Laravel](https://img.shields.io/badge/-Laravel-000000?style=for-the-badge&logo=Laravel)
-</div>
+
 
 Requirements
 ------
@@ -50,3 +50,5 @@ Please see package.json
 License
 ------
 The Cargo is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+</div>
