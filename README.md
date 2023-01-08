@@ -1,6 +1,7 @@
+<div align="center">
+
 Cargo made by Atamyrat
 ======
-<p align="center">
   Cargo is a professional, fully customizable site building service for putting work on the web.  
   
 ### Languages and Tools
@@ -10,7 +11,7 @@ Cargo made by Atamyrat
 ![js](https://img.shields.io/badge/-JavaScript-000000?style=for-the-badge&logo=Javascript)
 ![PHP](https://img.shields.io/badge/-PHP-000000?style=for-the-badge&logo=PHP) 
 ![Laravel](https://img.shields.io/badge/-Laravel-000000?style=for-the-badge&logo=Laravel)
-</p>
+</div>
 
 Requirements
 ------
