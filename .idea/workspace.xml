@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="83e5c982-ee2d-4dd2-a6ff-8f6e648c9696" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <first_editor relative-caret-position="1272">
+                <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -120,12 +119,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673185942008</updated>
-      <workItem from="1673185943657" duration="587000" />
+      <workItem from="1673185943657" duration="891000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0.1">
+      <created>1673186549633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673186549633</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.0.1">
+      <created>1673186740230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673186740230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="587000" />
+    <option name="totallyTimeSpent" value="891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -159,6 +173,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/seeders/UserSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -170,8 +188,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <first_editor relative-caret-position="1272">
+            <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
