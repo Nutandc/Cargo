@@ -16,8 +16,8 @@ class UserSeeder extends Seeder
     public function run()
     {
         $obj = new User();
-        $obj->username = 'admin';
-        $obj->password = bcrypt('admin123');
+        $obj->username = 'Admin';
+        $obj->password = bcrypt('12345');
         $obj->save();
     }
 }
