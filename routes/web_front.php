@@ -12,12 +12,9 @@ Route::get('/language/{key}', [HomeController::class, 'language'])
     ->name('language')
     ->where('key', '[a-z]+');
 
-Route::controller(ContactController::class)
-    ->prefix('contact')
-    ->name('contact.')
-    ->group(function () {
-        Route::get('/', 'create')->name('create');
-        Route::post('/', 'store')->name('store');
+Route::controller(ContactController::class)->group(function () {
+        Route::get('/contact', 'index')->name('contact');
+        Route::post('/contact/store', 'store')->name('contact.store');
     });
 
 Route::controller(CargoController::class)

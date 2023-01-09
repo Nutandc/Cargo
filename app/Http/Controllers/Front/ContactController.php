@@ -16,13 +16,13 @@ class ContactController extends Controller
         $request->validate([
             'name'=>'required|string|max:32',
             'phone'=>'required|integer|min:61000000|max:65999999',
-            'text'=>'required|string|max:500',]);
-        $message = new Contact();
-        $message->name = $request->name;
-        $message->phone = $request->phone;
-        $message->text = $request->text;
+            'message'=>'required|string|max:500',]);
+        $contact = new Contact();
+        $contact->name = $request->name;
+        $contact->phone = $request->phone;
+        $contact->message = $request->message;
         $success = trans('app.send-response');
-        $message->save();
+        $contact->save();
 
         return redirect()->back()
             ->with([

@@ -17,7 +17,6 @@
             @error('username')
                 <div class="alert alert-danger mt-1">{{ $message }}</div>
             @enderror
-            <div id="usernameHelp" class="form-text">We'll never share your username with anyone else.</div>
         </div>
         <div class="mb-3">
             <label for="password" class="form-label">@lang('app.password')</label>
@@ -32,6 +31,7 @@
             @error('password_confirmation')
                 <div class="alert alert-danger mt-1">{{ $message }}</div>
             @enderror
+            <div id="usernameHelp" class="form-text">@lang('app.login2')<a href="{{ route('login') }}"> @lang('app.login')</a></div>
         </div>
         <button type="submit" class="btn btn-primary w-100">
             <i class="bi bi-person-plus me-1"></i> @lang('app.register')

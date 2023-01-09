@@ -5,6 +5,8 @@ return [
     'app-description' => 'Made by Atamyrat',
 
     'home' => 'Home',
+    'about' => 'About',
+    'services' => 'Services',
     'dashboard' => 'Dashboard',
     'contacts' => 'Contacts',
     'cargos' => 'Cargos',
@@ -47,8 +49,10 @@ return [
     'contact' => 'Contact',
 
     'login' => 'Login',
+    'login2' => 'Do you have an account?',
     'logout' => 'Logout',
     'register' => 'Register',
+    'register2' => 'You don\'t have account?',
     'name' => 'Name',
     'username' => 'Username',
     'password' => 'Password',

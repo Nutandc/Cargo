@@ -1,5 +1,5 @@
 @extends('front.layouts.app')
-@section('title') @lang('app.app-description') @endsection
+@section('title') @lang('app.home') | @lang('app.app-description') @endsection
 @section('content')
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative mb-5">

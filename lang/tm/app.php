@@ -5,6 +5,8 @@ return [
     'app-description' => 'Made by Atamyrat',
 
     'home' => 'Baş sahypa',
+    'about' => 'Biz barada',
+    'services' => 'Hyzmatlarymyz',
     'dashboard' => 'Dolandyryjy panel',
    'contacts' => 'Contacts',
    'cargos' => 'Cargos',
@@ -47,8 +49,10 @@ return [
     'contact' => 'Habarlaşmak',
 
     'login' => 'Hasabyma gir',
+    'login2' => 'Hasabyňyz barmy?',
     'logout' => 'Hasabymdan çyk',
     'register' => 'Täze hasap aç',
+    'register2' => 'Hasabyňyz ýokmy?',
     'name' => 'Ady',
     'username' => 'Ulanyjy ady',
     'password' => 'Açarsözi',
