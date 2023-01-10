@@ -83,4 +83,11 @@ return [
     'in-stock' => 'Stokda bar',
     'out-of-stock' => 'Stokda ýok',
     'not-found' => '<b>:name</b> tapylmady!',
+
+    'news-text' => 'Täzeliklere abuna boluň',
+    'newsletter' => 'Täzelikler',
+    'footer' => ' Ähli hukuklary goraglydyr.',
+    'address' => 'Salgymyz',
+    'confirm' => 'Tassyklamak',
+    'q-links' => 'Quick Links',
 ];

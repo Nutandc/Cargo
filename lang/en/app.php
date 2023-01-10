@@ -83,4 +83,11 @@ return [
     'in-stock' => 'In stock',
     'out-of-stock' => 'Out of stock',
     'not-found' => '<b>:name</b> not found!',
+
+    'news-text' => 'Subscribe to newsletter',
+    'newsletter' => 'Newsletter',
+    'footer' => ' All rights reserved.',
+    'address' => 'Address',
+    'confirm' => 'Confirm',
+    'q-links' => 'Quick Links',
 ];
