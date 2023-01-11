@@ -32,6 +32,8 @@ return [
     'track2' => 'Search via <span class="text-primary">Track code</span>',
     'track3' => 'Tracking numbers are useful for knowing the location of time sensitive deliveries.',
     'sl1' => 'Transport & Logistics Solution',
+    'sl2' => '#1 Place For Your <span class="text-primary">Logistics</span> Solution',
+    'sl3' => 'From procurement to delivery and from individual shipments to mass distribution, logistics develops individual solutions for the entire supply chain.',
 
     'categories' => 'Categories',
     'search' => 'Search',
@@ -90,8 +92,13 @@ return [
 
     'news-text' => 'Subscribe to newsletter',
     'newsletter' => 'Newsletter',
-    'footer' => ' All rights reserved.',
+    'footer' => 'All rights reserved.',
+    'footer2' => 'Designed By <a class="border-primary border-bottom text-primary" href="https://github.com/Atamyrat2005">Atamyrat</a>',
     'address' => 'Address',
     'confirm' => 'Confirm',
-    'q-links' => 'Quick Links',
+
+    'sea' => 'Sea freight',
+    'air' => 'Air freight',
+    'road' => 'Road freight',
+    'railway' => 'Railway freight',
 ];

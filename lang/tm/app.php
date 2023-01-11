@@ -32,6 +32,8 @@ return [
     'track2' => '<span class="text-primary">Trek belgisi</span> boýunça gözleg etmek',
     'track3' => 'Trek belgileri, wagt duýgur gowşuryşlaryň ýerleşýän ýerini bilmek üçin peýdalydyr.',
     'sl1' => 'Ulag we logistika çözgüdi',
+    'sl2' => '#<span class="text-primary">Logistika</span> çözgüdi boýunça birinji ýer',
+    'sl3' => 'Satyn almalardan başlap, aýry-aýry ýüklemelerden köpçülikleýin paýlanyşa çenli logistika ähli üpjünçilik zynjyry üçin aýratyn çözgütleri döredýär.',
 
     'search' => 'Gözleg',
     'total' => 'Jemi',
@@ -91,7 +93,13 @@ return [
     'news-text' => 'Täzeliklere abuna boluň',
     'newsletter' => 'Täzelikler',
     'footer' => ' Ähli hukuklary goraglydyr.',
+    'footer2' => '<a class="border-primary border-bottom text-primary" href="https://github.com/Atamyrat2005">Atamyrat</a> tarapyndan taýýarlanyldy',
     'address' => 'Salgymyz',
     'confirm' => 'Tassyklamak',
-    'q-links' => 'Quick Links',
+    'q-links' => 'Tiz baglanyşyklar',
+
+    'sea' => 'Deňiz ýükleri',
+    'air' => 'Howa ýükleri',
+    'road' => 'Ýol ýükleri',
+    'railway' => 'Demir ýol ýükleri',
 ];

@@ -15,9 +15,10 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">@lang('app.services')</h4>
-                <a class="btn btn-link" href="">Air Freight</a>
-                <a class="btn btn-link" href="">Sea Freight</a>
-                <a class="btn btn-link" href="">Road Freight</a>
+                <a class="btn btn-link" href="">@lang('app.air')</a>
+                <a class="btn btn-link" href="">@lang('app.road')</a>
+                <a class="btn btn-link" href="">@lang('app.railway')</a>
+                <a class="btn btn-link" href="">@lang('app.sea')</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">@lang('app.q-links')</h4>
@@ -39,10 +40,10 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">@lang('app.app-name')</a>,@lang('app.footer')
+                    &copy; <a class="border-primary border-bottom text-primary" href="{{ route('home') }}">@lang('app.app-name')</a> @lang('app.footer')
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    Designed By <a class="border-primary border-bottom text-primary" href="https://github.com/Atamyrat2005">Atamyrat</a>
+                    @lang('app.footer2')
                 </div>
             </div>
         </div>
