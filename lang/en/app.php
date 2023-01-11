@@ -28,11 +28,15 @@ return [
     'recommend' => 'Recommend',
     'credits' => 'Credits',
     'credit' => 'Credit',
+    'track' => 'Track code',
+    'track2' => 'Search via <span class="text-primary">Track code</span>',
+    'track3' => 'Tracking numbers are useful for knowing the location of time sensitive deliveries.',
+    'sl1' => 'Transport & Logistics Solution',
 
+    'categories' => 'Categories',
     'search' => 'Search',
     'total' => 'Total',
 
-    'categories' => 'Categories',
     'category' => 'Category',
     'brands' => 'Brands',
     'brand' => 'Brand',

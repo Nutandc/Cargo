@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'app-name' => 'Cargo',
+    'app-name' => 'Kargo',
     'app-description' => 'Made by Atamyrat',
 
     'home' => 'Baş sahypa',
@@ -28,6 +28,10 @@ return [
     'recommend' => 'Maslahat berilýär',
     'credits' => 'Garaşaryna berilýänler',
     'credit' => 'Garaşaryna berilýär',
+    'track' => 'Trek belgisi',
+    'track2' => '<span class="text-primary">Trek belgisi</span> boýunça gözleg etmek',
+    'track3' => 'Trek belgileri, wagt duýgur gowşuryşlaryň ýerleşýän ýerini bilmek üçin peýdalydyr.',
+    'sl1' => 'Ulag we logistika çözgüdi',
 
     'search' => 'Gözleg',
     'total' => 'Jemi',
