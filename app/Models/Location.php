@@ -28,4 +28,17 @@ class Location extends Model
     {
         return $this->hasMany(Cargo::class);
     }
+
+    public function parent() // whereNull('parent_id');
+    {
+        return $this->belongsTo(self::class, 'parent_id');
+    }
+
+
+    public function child() // whereNotNull('parent_id')
+    {
+        return $this->hasMany(self::class, 'parent_id')
+            ->orderBy('sort_order')
+            ->orderBy('name');
+    }
 }
