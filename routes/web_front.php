@@ -12,6 +12,7 @@ Route::get('/', [HomeController::class, 'index'])
 Route::get('/language/{key}', [HomeController::class, 'language'])
     ->name('language')
     ->where('key', '[a-z]+');
+Route::get('/cargos', [HomeController::class, 'index'])->name('cargos');
 
 Route::controller(ContactController::class)->group(function () {
     Route::get('/contact', 'index')->name('contact');
