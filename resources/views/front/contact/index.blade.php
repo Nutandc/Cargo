@@ -5,11 +5,11 @@
 <div class="container-fluid py-5" style="margin-bottom: 6rem; background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url({{ asset('img/main-slider/carousel-1.jpg') }}) center center no-repeat;
     background-size: cover;">
     <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
+        <h1 class="display-3 text-white mb-3 animated slideInDown">@lang('app.contact')</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{route('home')}}">@lang('app.home')</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">@lang('app.contact')</li>
             </ol>
         </nav>
     </div>
@@ -30,7 +30,7 @@
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" placeholder="Your Name" autocomplete="off" autofocus required>
-                                    <label for="name">Name</label>
+                                    <label for="name">@lang('app.name')</label>
                                     @error('name')
                                     <div class="alert alert-danger mt-1"></div>
                                     @enderror
@@ -38,7 +38,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <div class="d-flex justify-content-center align-items-center bg-primary ps-1"> +993 <input type="number" name="phone" class="py-3 ms-1 form-control @error('number') is-invalid @enderror" id="phone" placeholder="Phone number" autocomplete="off" min="61000000" max="65999999" aria-describedby="numberHelp" required></div>
+                                    <div class="d-flex justify-content-center align-items-center bg-primary ps-1"> +993 <input type="number" name="phone" class="py-3 ms-1 form-control @error('number') is-invalid @enderror" id="phone" placeholder="@lang('app.phone')" autocomplete="off" min="61000000" max="65999999" aria-describedby="numberHelp" required></div>
                                     @error('phone')
                                     <div class="alert alert-danger mt-1"></div>
                                     @enderror
@@ -47,14 +47,14 @@
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control @error('message') is-invalid @enderror" placeholder="Leave a message here" name="message" id="message" style="height: 100px" autocomplete="off" maxlength="500" required></textarea>
-                                    <label for="message">Message</label>
+                                    <label for="message">@lang('app.message')</label>
                                     @error('message')
                                     <div class="alert alert-danger mt-1"></div>
                                     @enderror
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit">@lang('app.send')</button>
                             </div>
                         </div>
                     </form>

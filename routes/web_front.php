@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Front\AboutController;
 use App\Http\Controllers\Front\CargoController;
 use App\Http\Controllers\Front\ContactController;
 use App\Http\Controllers\Front\HomeController;
@@ -13,8 +14,12 @@ Route::get('/language/{key}', [HomeController::class, 'language'])
     ->where('key', '[a-z]+');
 
 Route::controller(ContactController::class)->group(function () {
-        Route::get('/contact', 'index')->name('contact');
-        Route::post('/contact/store', 'store')->name('contact.store');
+    Route::get('/contact', 'index')->name('contact');
+    Route::post('/contact/store', 'store')->name('contact.store');
+});
+
+Route::controller(AboutController::class)->group(function () {
+        Route::get('/about', 'index')->name('about');
     });
 
 Route::controller(CargoController::class)

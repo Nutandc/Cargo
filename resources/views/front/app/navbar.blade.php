@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="{{ route('home')}}" class="nav-item nav-link active">@lang('app.home')</a>
-            <a href="#" class="nav-item nav-link">@lang('app.about')</a>
+            <a href="{{ route('about')}}" class="nav-item nav-link">@lang('app.about')</a>
             <a href="#" class="nav-item nav-link">@lang('app.services')</a>
             <a href="{{ route('contact')}}" class="nav-item nav-link">@lang('app.contact')</a>
         </div>

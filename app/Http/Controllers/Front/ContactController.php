@@ -8,15 +8,17 @@ use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('front.contact.index');
     }
 
-    public function store (Request $request){
+    public function store(Request $request)
+    {
         $request->validate([
-            'name'=>'required|string|max:32',
-            'phone'=>'required|integer|min:61000000|max:65999999',
-            'message'=>'required|string|max:500',]);
+            'name' => 'required|string|max:32',
+            'phone' => 'required|integer|min:61000000|max:65999999',
+            'message' => 'required|string|max:500',]);
         $contact = new Contact();
         $contact->name = $request->name;
         $contact->phone = $request->phone;
@@ -29,6 +31,7 @@ class ContactController extends Controller
                 'success' => $success,
             ]);
     }
+
     public function language($key)
     {
         if ($key == 'en') {
