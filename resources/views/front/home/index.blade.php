@@ -14,7 +14,7 @@
                             <p class="fs-5 fw-medium text-white mb-4 pb-2">@lang('app.track3')</p>
                             <div class="position-relative col-8">
                                 <form action="{{ route('cargos') }}">
-                                    <input type="text" maxlength="16" placeholder="@lang('app.track')" name="t"
+                                    <input type="text" maxlength="32" placeholder="@lang('app.track')" name="t"
                                            id="track" class="form-control border-0 w-100 py-3 ps-4 pe-5"
                                            autocomplete="off" required>
                                     <button type="submit"

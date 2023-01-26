@@ -24,7 +24,7 @@ class CargoController extends Controller
             ->paginate(10)
             ->withQueryString();
 
-        return view('Front.cargo.index', [
+        return view('front.cargo.index', [
             'track' => $request->t,
             'cargos' => $cargos,
         ]);

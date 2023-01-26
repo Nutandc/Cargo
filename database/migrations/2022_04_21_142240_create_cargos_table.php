@@ -23,7 +23,7 @@ return new class extends Migration
             $table->foreign('courier_id')->references('id')->on('couriers')->nullOnDelete();
             $table->unsignedBigInteger('process_id')->index()->nullable();
             $table->foreign('process_id')->references('id')->on('processes')->nullOnDelete();
-            $table->string('track_code')->index();
+            $table->string('track')->index();
             $table->string('receiver_name');
             $table->string('receiver_phone');
             $table->string('receiver_address');

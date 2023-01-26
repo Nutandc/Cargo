@@ -12,7 +12,7 @@ Route::get('/', [HomeController::class, 'index'])
 Route::get('/language/{key}', [HomeController::class, 'language'])
     ->name('language')
     ->where('key', '[a-z]+');
-Route::get('/cargos', [HomeController::class, 'index'])->name('cargos');
+Route::get('/cargos', [HomeController::class, 'search'])->name('cargos');
 
 Route::controller(ContactController::class)->group(function () {
     Route::get('/contact', 'index')->name('contact');
@@ -20,14 +20,11 @@ Route::controller(ContactController::class)->group(function () {
 });
 
 Route::controller(AboutController::class)->group(function () {
-        Route::get('/about', 'index')->name('about');
-    });
+    Route::get('/about', 'index')->name('about');
+});
 
-Route::controller(CargoController::class)
-    ->prefix('cargo')
-    ->name('cargo.')
-    ->group(function () {
-        Route::get('/create', 'create')->name('create');
-        Route::post('/store', 'store')->name('store');
-        Route::get('/show', 'show')->name('show'); // ?q=20220426-1918
-    });
+Route::controller(CargoController::class)->group(function () {
+    Route::post('/cargos/store', 'store')->name('cargos.store');
+    Route::get('/cargos/create', 'create')->name('cargos.create');
+    Route::get('/cargo/{id}', 'show')->name('cargo')->where('id', '[0-9]+'); // ?q=20220426-1918
+});

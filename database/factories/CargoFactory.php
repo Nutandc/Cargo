@@ -68,7 +68,7 @@ class CargoFactory extends Factory
             'transport_id' => Transport::inRandomOrder()->first()->id,
             'courier_id' => null,
             'process_id' => null,
-            'track_code' => Carbon::parse($datetime)->format('Ymd-His') . '-' . Str::random(6),
+            'track' => Carbon::parse($datetime)->format('Ymd-His') . '-' . Str::random(6),
             'receiver_name' => $this->faker->name(),
             'receiver_phone' => rand(60000000, 65999999),
             'receiver_address' => $this->faker->address(),
