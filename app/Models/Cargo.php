@@ -55,4 +55,14 @@ class Cargo extends Model
         return $this->belongsToMany(Specialty::class, 'cargo_specialties')
             ->orderBy('sort_order');
     }
+
+
+    public function name()
+    {
+        if (app()->isLocale('en')) {
+            return $this->name_en ?: $this->name;
+        } else {
+            return $this->name;
+        }
+    }
 }

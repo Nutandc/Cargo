@@ -146,7 +146,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg"
+                        <img class="img-fluid flex-shrink-0" src="{{asset ('img/people/testimonial-1.jpg') }}"
                              style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">Client Name</h5>
@@ -159,7 +159,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg"
+                        <img class="img-fluid flex-shrink-0" src="{{asset ('img/people/testimonial-2.jpg') }}"
                              style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">Client Name</h5>
@@ -172,7 +172,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg"
+                        <img class="img-fluid flex-shrink-0" src="{{asset ('img/people/testimonial-3.jpg') }}"
                              style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">Client Name</h5>
@@ -185,7 +185,7 @@
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg"
+                        <img class="img-fluid flex-shrink-0" src="{{asset ('img/people/testimonial-4.jpg') }}"
                              style="width: 80px; height: 80px;">
                         <div class="ms-4">
                             <h5 class="mb-1">Client Name</h5>

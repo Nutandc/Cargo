@@ -26,8 +26,8 @@ class HomeController extends Controller
                     $query->orWhere('track', 'like', '%' . $track . '%');
                 });
             })
-            ->paginate(10, [
-                'id', 'track', 'location_id', 'created_at'
+            ->paginate(20, [
+                'id', 'track', 'process_id', 'transport_id',
             ], 'page')
             ->withQueryString();
 
@@ -37,8 +37,7 @@ class HomeController extends Controller
         ]);
     }
 
-    public
-    function language($key)
+    public function language($key)
     {
         if ($key == 'en') {
             session()->put('locale', 'en');

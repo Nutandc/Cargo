@@ -20,9 +20,7 @@ class CargoController extends Controller
                 return $query->where(function ($query) use ($track) {
                     $query->orWhere('track', 'like', '%' . $track . '%');
                 });
-            })
-            ->paginate(10)
-            ->withQueryString();
+            });
 
         return view('front.cargo.index', [
             'track' => $request->t,

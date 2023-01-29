@@ -13,6 +13,7 @@ Route::get('/language/{key}', [HomeController::class, 'language'])
     ->name('language')
     ->where('key', '[a-z]+');
 Route::get('/cargos', [HomeController::class, 'search'])->name('cargos');
+Route::get('/cargo/{id}', [HomeController::class, 'search'])->name('cargo')->where('id', '[0-9]+');
 
 Route::controller(ContactController::class)->group(function () {
     Route::get('/contact', 'index')->name('contact');
